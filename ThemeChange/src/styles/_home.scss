@@ -1,0 +1,18 @@
+.home-wrapper {
+  height: calc(100dvh - 150px);
+  width: 100dvw;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  gap: 30px;
+  padding: 0px 100px 100px 100px;
+}
+
+.featured-products,
+.recommended-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 2rem;
+}

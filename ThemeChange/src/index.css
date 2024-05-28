@@ -11,6 +11,42 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* default colors */
+  --banner-bg-color: #f3f3f3;
+  --product-border: #e1e1e1;
+  --product-img-bg-color: #f1f1f1;
+  --text-color: #000000;
+  --button-bg-color: #000000;
+  --button-text-color: #ffffff;
+  --radio-border-color:#b7b3b3;
+}
+
+:root:has(#pink:checked) {
+  --banner-bg-color: #fae5fa;
+  --product-border: #fbdbfb;
+  --product-img-bg-color: #f1dff1;
+  --text-color: #000000;
+  --button-bg-color: #000000;
+  --button-text-color: #ffffff;
+}
+
+:root:has(#blue:checked) {
+  --banner-bg-color: #e0ebfa;
+  --product-border: #e0ebfa;
+  --product-img-bg-color: #e0ebfa;
+  --text-color: #000000;
+  --button-bg-color: #000000;
+  --button-text-color: #ffffff;
+}
+
+:root:has(#dark:checked) {
+  --banner-bg-color: #1a1a1b;
+  --product-border: #1a1a1b;
+  --product-img-bg-color: #1a1a1b;
+  --text-color: #ffffff;
+  --button-bg-color: #ffffff;
+  --button-text-color: #000000;
 }
 
 a {
