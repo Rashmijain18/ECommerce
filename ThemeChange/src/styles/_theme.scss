@@ -1,0 +1,33 @@
+.color-picker {
+  input[id="grey"] {
+    --radio-border-color: #b7b3b3;
+  }
+
+  input[id="dark"] {
+    --radio-border-color: black;
+  }
+
+  input[id="pink"] {
+    --radio-border-color: pink;
+  }
+
+  input[id="blue"] {
+    --radio-border-color: #cbdef8;
+  }
+
+  input[type="radio"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid var(--radio-border-color);
+
+    &:checked {
+      background-color: var(--radio-border-color);
+    }
+  }
+
+  fieldset {
+    border: none;
+  }
+}

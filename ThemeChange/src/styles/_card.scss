@@ -1,0 +1,19 @@
+.card-wrapper {
+  height: 50dvh;
+  width: 50dvh;
+  border: 1px solid var(--product-border);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.product-img {
+  background-color: var(--product-img-bg-color);
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.product-details {
+  padding: 0px 30px;
+}

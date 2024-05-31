@@ -1,0 +1,33 @@
+.header {
+  height: 60px;
+  width: 100dvw;
+  top: 0px;
+  position: fixed;
+  background-color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr 160px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar-brand {
+  padding-left: 40px;
+}
+
+.navbar-options {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+  li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+  a {
+    color: black;
+  }
+}

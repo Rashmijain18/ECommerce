@@ -1,0 +1,38 @@
+.banner-wrapper {
+  height: 50dvh;
+  background: var(--banner-bg-color);
+  display: flex;
+  flex-direction: row;
+
+  overflow: hidden;
+  color: var(--text-color);
+}
+
+.banner-desc {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  padding: 30px 30px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 15px;
+
+  h1 {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+  }
+}
+
+.banner-image {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-basis: 50%;
+  object-fit: contain;
+}
+
+.shop-now-button {
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+  border-radius: 0px;
+}
